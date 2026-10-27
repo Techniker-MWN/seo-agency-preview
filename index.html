@@ -28,7 +28,7 @@
 
 
 
-<link href="site-d614441c.css" rel="stylesheet">
+<link href="site-0c71e56a.css" rel="stylesheet">
 
 
 
@@ -831,56 +831,32 @@
 
         
         
-            <figure class="proof-race" data-race data-reveal>
-                <figcaption class="proof-race-head">
-                    <span class="proof-race-label">LCP · Lighthouse 12 · mobile · 4× speed</span>
-                    <span class="proof-race-clock" aria-hidden="true"><b data-race-clock>15.5</b> s</span>
-                    <button class="btn-ghost proof-race-replay" type="button" data-race-replay hidden><i class="bi bi-arrow-repeat" aria-hidden="true"></i>Replay</button>
-                </figcaption>
-                <div class="proof-race-phones">
+            
+            <figure class="proof-race" data-race data-reveal style="--max: 15.5;">
+                <figcaption class="proof-race-label">LCP · Lighthouse 12 · mobile</figcaption>
+                <div class="proof-bars">
                     
-                        <div class="proof-phone is-good" data-race-phone="2.5">
-                            
-                            <div class="proof-phone-device" aria-hidden="true">
-                                <span class="pp-screen">
-                                    <span class="pp-status"><b>9:41</b><span class="pp-island"></span><span class="pp-sys"><i class="pp-signal"><i></i><i></i><i></i><i></i></i><i class="pp-battery"></i></span></span>
-                                    <span class="pp-url"><i class="bi bi-lock-fill"></i><i class="pp-url-bar"></i><span class="pp-load"></span></span>
-                                    <span class="proof-phone-page"><i class="pp-nav"></i><i class="pp-hero"></i><i class="pp-line"></i><i class="pp-line pp-line--short"></i><i class="pp-btn"></i></span>
-                                    <span class="pp-home"></span>
-                                </span>
-                            </div>
-                            <p class="proof-phone-name">Google’s “good” threshold</p>
-                            <p class="proof-phone-time">2.5 s</p>
+                        <div class="proof-bar is-good" style="--v: 2.5;">
+                            <span class="proof-bar-name">Google’s “good” threshold</span>
+                            <span class="proof-bar-track" aria-hidden="true"><span class="proof-bar-fill"></span></span>
+                            <span class="proof-bar-value">2.5 s</span>
                         </div>
                     
-                        <div class="proof-phone is-mid" data-race-phone="7.3">
-                            
-                            <div class="proof-phone-device" aria-hidden="true">
-                                <span class="pp-screen">
-                                    <span class="pp-status"><b>9:41</b><span class="pp-island"></span><span class="pp-sys"><i class="pp-signal"><i></i><i></i><i></i><i></i></i><i class="pp-battery"></i></span></span>
-                                    <span class="pp-url"><i class="bi bi-lock-fill"></i><i class="pp-url-bar"></i><span class="pp-load"></span></span>
-                                    <span class="proof-phone-page"><i class="pp-nav"></i><i class="pp-hero"></i><i class="pp-line"></i><i class="pp-line pp-line--short"></i><i class="pp-btn"></i></span>
-                                    <span class="pp-home"></span>
-                                </span>
-                            </div>
-                            <p class="proof-phone-name">Median LCP</p>
-                            <p class="proof-phone-time">7.3 s</p>
+                        <div class="proof-bar is-mid" style="--v: 7.3;">
+                            <span class="proof-bar-name">Median LCP</span>
+                            <span class="proof-bar-track" aria-hidden="true"><span class="proof-bar-fill"></span></span>
+                            <span class="proof-bar-value">7.3 s</span>
                         </div>
                     
-                        <div class="proof-phone is-bad" data-race-phone="15.5">
-                            
-                            <div class="proof-phone-device" aria-hidden="true">
-                                <span class="pp-screen">
-                                    <span class="pp-status"><b>9:41</b><span class="pp-island"></span><span class="pp-sys"><i class="pp-signal"><i></i><i></i><i></i><i></i></i><i class="pp-battery"></i></span></span>
-                                    <span class="pp-url"><i class="bi bi-lock-fill"></i><i class="pp-url-bar"></i><span class="pp-load"></span></span>
-                                    <span class="proof-phone-page"><i class="pp-nav"></i><i class="pp-hero"></i><i class="pp-line"></i><i class="pp-line pp-line--short"></i><i class="pp-btn"></i></span>
-                                    <span class="pp-home"></span>
-                                </span>
-                            </div>
-                            <p class="proof-phone-name">Slowest site in the test</p>
-                            <p class="proof-phone-time">15.5 s</p>
+                        <div class="proof-bar is-bad" style="--v: 15.5;">
+                            <span class="proof-bar-name">Slowest site in the test</span>
+                            <span class="proof-bar-track" aria-hidden="true"><span class="proof-bar-fill"></span></span>
+                            <span class="proof-bar-value">15.5 s</span>
                         </div>
                     
+                </div>
+                <div class="proof-axis" aria-hidden="true">
+                    <span style="--t: 0;">0 s</span><span style="--t: 5;">5 s</span><span style="--t: 10;">10 s</span><span style="--t: 15;">15 s</span>
                 </div>
             </figure>
         
@@ -1745,7 +1721,7 @@
 
 <script>
 (function () {
-    var src = 'site-462efa0f.js';
+    var src = 'site-a0f9b90b.js';
     var done = false;
     var load = function () { if (done) return; done = true; var s = document.createElement('script'); s.src = src; document.body.appendChild(s); };
     // nach dem ersten Bild; Hintergrund-Tabs malen nicht (kein requestAnimationFrame) – dann spätestens nach 300 ms
