@@ -28,7 +28,7 @@
 
 
 
-<link href="site-1fd17565.css" rel="stylesheet">
+<link href="site-7563b71a.css" rel="stylesheet">
 
 
 
@@ -45,10 +45,14 @@
     <body>
         
         
-        <div class="fixed-buttons">
-            <a href="https://wa.me/971551366799" class="cta-call" target="_blank" rel="noopener" aria-label="Message us on WhatsApp"><i class="bi bi-whatsapp"></i></a>
-            <a href="#" class="back-top" aria-label="Back to top"><i class="bi bi-arrow-up"></i></a>
-        </div>
+        
+        
+        <nav class="fixed-buttons contact-rail" aria-label="Contact">
+            <a class="cr-item is-wa" href="https://wa.me/971551366799" target="_blank" rel="noopener" aria-label="WhatsApp +971 55 136 6799"><i class="bi bi-whatsapp" aria-hidden="true"></i><span class="cr-label" aria-hidden="true">WhatsApp</span></a>
+            <a class="cr-item" href="tel:+971551366799" aria-label="Phone +971 55 136 6799"><i class="bi bi-telephone" aria-hidden="true"></i><span class="cr-label" aria-hidden="true">+971 55 136 6799</span></a>
+            <a class="cr-item" href="mailto:service@seo-agency.ae" aria-label="Email service@seo-agency.ae"><i class="bi bi-envelope" aria-hidden="true"></i><span class="cr-label" aria-hidden="true">service@seo-agency.ae</span></a>
+        </nav>
+        <a href="#" class="back-top fixed-buttons" aria-label="Back to top"><i class="bi bi-arrow-up" aria-hidden="true"></i></a>
 
         <header>
             
@@ -881,16 +885,23 @@
 
 
 
+
+
+
 <section class="section section-panel closing" id="analysis" aria-labelledby="closing-title">
     <img class="closing-topo" src="themes/neu/assets/images/topo-lines.svg" alt="" aria-hidden="true" loading="lazy" width="1600" height="640">
     <div class="container">
-                    <div class="closing-head" data-reveal>
-                <h2 id="closing-title">Let's plan your new website</h2>
-                <p class="closing-text">Tell us about your current site and your goals. We look at your structure, speed and rankings first, then suggest a scope and timeline in a 30-minute call with our team.</p>            </div>
         
+            <div class="closing-head" data-reveal>
+                <h2 id="closing-title">Let's plan your new website</h2>
+                <p class="closing-text">Tell us about your current site and your goals. We look at your structure, speed and rankings first, then suggest a scope and timeline in a 30-minute call with our team.</p>
+            </div>
+        
+
         <div class="closing-grid">
             <div class="closing-side" data-reveal>
-                                
+                
+                
                 <ul class="closing-channels list-unstyled">
                     <li>
                         <a class="closing-channel is-wa" href="https://wa.me/971551366799" target="_blank" rel="noopener">
@@ -919,10 +930,11 @@
                         </div>
                     </li>
                 </ul>
-                            </div>
+            </div>
 
             <div class="closing-main" data-reveal style="--reveal-delay: 90ms;">
-                                
+                
+                
                 <form class="closing-form" data-request="onAnalysisRequest" data-request-validate data-request-flash>
                     
                     <div class="cf-core">
@@ -968,6 +980,8 @@
                 </form>
             </div>
         </div>
+        
+        
 
     </div>
 </section>
@@ -1205,7 +1219,7 @@
 
 <script>
 (function () {
-    var src = 'site-c0baa171.js';
+    var src = 'site-462efa0f.js';
     var done = false;
     var load = function () { if (done) return; done = true; var s = document.createElement('script'); s.src = src; document.body.appendChild(s); };
     // nach dem ersten Bild; Hintergrund-Tabs malen nicht (kein requestAnimationFrame) – dann spätestens nach 300 ms
